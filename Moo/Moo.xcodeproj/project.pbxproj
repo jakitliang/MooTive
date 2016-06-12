@@ -15,9 +15,9 @@
 		141277191CFD6FDF0037BD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141277171CFD6FDF0037BD86 /* LaunchScreen.storyboard */; };
 		141277241CFD6FDF0037BD86 /* MooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141277231CFD6FDF0037BD86 /* MooTests.m */; };
 		1412772F1CFD6FDF0037BD86 /* MooUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1412772E1CFD6FDF0037BD86 /* MooUITests.m */; };
-		141277431CFD70390037BD86 /* MooWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1412773D1CFD70390037BD86 /* MooWeb.m */; };
-		141277441CFD70390037BD86 /* MooModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1412773F1CFD70390037BD86 /* MooModel.m */; };
-		141277451CFD70390037BD86 /* MooCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 141277411CFD70390037BD86 /* MooCommon.m */; };
+		14C96B3D1D0D357100E16CC3 /* MooCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C96B381D0D357100E16CC3 /* MooCommon.m */; };
+		14C96B3E1D0D357100E16CC3 /* MooModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C96B3A1D0D357100E16CC3 /* MooModel.m */; };
+		14C96B3F1D0D357100E16CC3 /* MooWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C96B3C1D0D357100E16CC3 /* MooWeb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		1412772A1CFD6FDF0037BD86 /* MooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1412772E1CFD6FDF0037BD86 /* MooUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MooUITests.m; sourceTree = "<group>"; };
 		141277301CFD6FDF0037BD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1412773C1CFD70390037BD86 /* MooWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooWeb.h; sourceTree = "<group>"; };
-		1412773D1CFD70390037BD86 /* MooWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooWeb.m; sourceTree = "<group>"; };
-		1412773E1CFD70390037BD86 /* MooModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooModel.h; sourceTree = "<group>"; };
-		1412773F1CFD70390037BD86 /* MooModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooModel.m; sourceTree = "<group>"; };
-		141277401CFD70390037BD86 /* MooCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooCommon.h; sourceTree = "<group>"; };
-		141277411CFD70390037BD86 /* MooCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooCommon.m; sourceTree = "<group>"; };
+		14C96B371D0D357100E16CC3 /* MooCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooCommon.h; sourceTree = "<group>"; };
+		14C96B381D0D357100E16CC3 /* MooCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooCommon.m; sourceTree = "<group>"; };
+		14C96B391D0D357100E16CC3 /* MooModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooModel.h; sourceTree = "<group>"; };
+		14C96B3A1D0D357100E16CC3 /* MooModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooModel.m; sourceTree = "<group>"; };
+		14C96B3B1D0D357100E16CC3 /* MooWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooWeb.h; sourceTree = "<group>"; };
+		14C96B3C1D0D357100E16CC3 /* MooWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooWeb.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		141277081CFD6FDF0037BD86 /* Moo */ = {
 			isa = PBXGroup;
 			children = (
-				141277421CFD70390037BD86 /* Library */,
+				14C96B361D0D355700E16CC3 /* Library */,
 				1412770C1CFD6FDF0037BD86 /* AppDelegate.h */,
 				1412770D1CFD6FDF0037BD86 /* AppDelegate.m */,
 				1412770F1CFD6FDF0037BD86 /* ViewController.h */,
@@ -150,18 +150,17 @@
 			path = MooUITests;
 			sourceTree = "<group>";
 		};
-		141277421CFD70390037BD86 /* Library */ = {
+		14C96B361D0D355700E16CC3 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				1412773C1CFD70390037BD86 /* MooWeb.h */,
-				1412773D1CFD70390037BD86 /* MooWeb.m */,
-				1412773E1CFD70390037BD86 /* MooModel.h */,
-				1412773F1CFD70390037BD86 /* MooModel.m */,
-				141277401CFD70390037BD86 /* MooCommon.h */,
-				141277411CFD70390037BD86 /* MooCommon.m */,
+				14C96B371D0D357100E16CC3 /* MooCommon.h */,
+				14C96B381D0D357100E16CC3 /* MooCommon.m */,
+				14C96B391D0D357100E16CC3 /* MooModel.h */,
+				14C96B3A1D0D357100E16CC3 /* MooModel.m */,
+				14C96B3B1D0D357100E16CC3 /* MooWeb.h */,
+				14C96B3C1D0D357100E16CC3 /* MooWeb.m */,
 			);
 			name = Library;
-			path = ../../../xiaoqiandai/xiaoqiandai/xiaoqiandai;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,11 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141277441CFD70390037BD86 /* MooModel.m in Sources */,
-				141277431CFD70390037BD86 /* MooWeb.m in Sources */,
-				141277451CFD70390037BD86 /* MooCommon.m in Sources */,
+				14C96B3E1D0D357100E16CC3 /* MooModel.m in Sources */,
 				141277111CFD6FDF0037BD86 /* ViewController.m in Sources */,
+				14C96B3F1D0D357100E16CC3 /* MooWeb.m in Sources */,
 				1412770E1CFD6FDF0037BD86 /* AppDelegate.m in Sources */,
+				14C96B3D1D0D357100E16CC3 /* MooCommon.m in Sources */,
 				1412770B1CFD6FDF0037BD86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +527,7 @@
 				141277351CFD6FDF0037BD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		141277361CFD6FDF0037BD86 /* Build configuration list for PBXNativeTarget "MooTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +536,7 @@
 				141277381CFD6FDF0037BD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		141277391CFD6FDF0037BD86 /* Build configuration list for PBXNativeTarget "MooUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				1412773B1CFD6FDF0037BD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
