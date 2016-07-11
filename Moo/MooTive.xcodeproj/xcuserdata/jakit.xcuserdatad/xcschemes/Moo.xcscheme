@@ -17,7 +17,7 @@
                BlueprintIdentifier = "141277051CFD6FDF0037BD86"
                BuildableName = "Moo.app"
                BlueprintName = "Moo"
-               ReferencedContainer = "container:Moo.xcodeproj">
+               ReferencedContainer = "container:MooTive.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "1412771E1CFD6FDF0037BD86"
                BuildableName = "MooTests.xctest"
                BlueprintName = "MooTests"
-               ReferencedContainer = "container:Moo.xcodeproj">
+               ReferencedContainer = "container:MooTive.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "141277291CFD6FDF0037BD86"
                BuildableName = "MooUITests.xctest"
                BlueprintName = "MooUITests"
-               ReferencedContainer = "container:Moo.xcodeproj">
+               ReferencedContainer = "container:MooTive.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "141277051CFD6FDF0037BD86"
             BuildableName = "Moo.app"
             BlueprintName = "Moo"
-            ReferencedContainer = "container:Moo.xcodeproj">
+            ReferencedContainer = "container:MooTive.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "141277051CFD6FDF0037BD86"
             BuildableName = "Moo.app"
             BlueprintName = "Moo"
-            ReferencedContainer = "container:Moo.xcodeproj">
+            ReferencedContainer = "container:MooTive.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "141277051CFD6FDF0037BD86"
             BuildableName = "Moo.app"
             BlueprintName = "Moo"
-            ReferencedContainer = "container:Moo.xcodeproj">
+            ReferencedContainer = "container:MooTive.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

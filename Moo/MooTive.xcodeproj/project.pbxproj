@@ -275,7 +275,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 141277011CFD6FDF0037BD86 /* Build configuration list for PBXProject "Moo" */;
+			buildConfigurationList = 141277011CFD6FDF0037BD86 /* Build configuration list for PBXProject "MooTive" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -480,7 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Moo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Miracle.Moo;
+				PRODUCT_BUNDLE_IDENTIFIER = Miracle.MooTive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -491,7 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Moo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Miracle.Moo;
+				PRODUCT_BUNDLE_IDENTIFIER = Miracle.MooTive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -545,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		141277011CFD6FDF0037BD86 /* Build configuration list for PBXProject "Moo" */ = {
+		141277011CFD6FDF0037BD86 /* Build configuration list for PBXProject "MooTive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				141277311CFD6FDF0037BD86 /* Debug */,
