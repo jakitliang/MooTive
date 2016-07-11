@@ -68,7 +68,7 @@
     }];
 }
 
-- (void)getJSON:(NSString *)path completion:(void (^)(NSString *status, NSDictionary *data))completion {
+- (void)getJSON:(NSString *)path completion:(void (^)(NSString *status, id data))completion {
     NSString *requestURL = [NSString stringWithFormat:@"%@%@", api, path];
     [conn curl:requestURL withMethod:@"GET" withParam:nil completion:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         if (connectionError) {
@@ -77,19 +77,20 @@
         }
         
         NSError *err;
-        NSDictionary *result = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:&err];
+        id result = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:&err];
         
         if (!err) {
             NSString *status = [result objectForKey:@"status"];
-            NSDictionary *dataDict = [result objectForKey:@"data"];
-            completion(status, dataDict);
+            self->response = [[MooJSONResponse alloc] initWithStatus:status withData:[result objectForKey:@"data"]];
+            completion(status, [result objectForKey:@"data"]);
+            
         } else {
             NSLog(@"%@", err.description);
         }
     }];
 }
 
-- (void)postJSON:(NSString *)path withParam:(NSMutableData *)param completion:(void (^)(NSString *status, NSDictionary *data))completion {
+- (void)postJSON:(NSString *)path withParam:(NSMutableData *)param completion:(void (^)(NSString *status, id data))completion {
     NSString *requestURL = [NSString stringWithFormat:@"%@%@", api, path];
     [conn curl:requestURL withMethod:@"POST" withParam:param completion:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         if (connectionError) {
@@ -98,11 +99,13 @@
         }
         
         NSError *err;
-        NSDictionary *result = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:&err];
+        id result = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:&err];
+        
         if (!err) {
             NSString *status = [result objectForKey:@"status"];
-            NSDictionary *dataDict = [result objectForKey:@"data"];
-            completion(status, dataDict);
+            self->response = [[MooJSONResponse alloc] initWithStatus:status withData:[result objectForKey:@"data"]];
+            completion(status, [result objectForKey:@"data"]);
+            
         } else {
             NSLog(@"JSON parse Error: %@", err.description);
             NSLog(@"Origin Data: %@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);

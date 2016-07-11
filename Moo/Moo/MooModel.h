@@ -9,12 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "MooWeb.h"
+#import "MooJSONResponse.h"
 
 @interface MooModel : NSObject
 {
     @public
     NSString *api;
     MooWeb *conn;
+    MooJSONResponse *response;
 }
 
 /*!
@@ -49,7 +51,7 @@
  @param path 地址
  @param completion 获取数据后回调
  */
-- (void)getJSON:(NSString *)path completion:(void (^)(NSString *status, NSDictionary *data))completion;
+- (void)getJSON:(NSString *)path completion:(void (^)(NSString *status, id data))completion;
 
 /*!
  @abstract POST获取JSON
@@ -58,6 +60,6 @@
  @param param 参数
  @param completion 获取数据后回调
  */
-- (void)postJSON:(NSString *)path withParam:(NSMutableData *)param completion:(void (^)(NSString *status, NSDictionary *data))completion;
+- (void)postJSON:(NSString *)path withParam:(NSMutableData *)param completion:(void (^)(NSString *status, id data))completion;
 
 @end

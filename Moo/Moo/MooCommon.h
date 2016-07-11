@@ -11,9 +11,13 @@
 
 @interface MooCommon : NSObject
 
-- (UIColor *)colorFromRGBA:(int)rgbValue withAlphaValue:(int)alphaValue;
+- (UIColor *)colorFromRGBA:(int)rgbValue withAlphaValue:(float)alphaValue;
 - (float)getRadian:(float)degree;
 - (UIImage *)imageWithColor:(UIColor *)color withWidth:(CGFloat)width withHeight:(CGFloat)height;
 - (void)alertInfo:(NSString *)title withMessage:(NSString *)message;
+- (NSArray *)splitByDot:(NSString *)number withOffset:(NSUInteger)offset;
+- (NSString *)splitByThousand:(NSString *)number;
+- (NSString *)stringConverFromDate:(NSDate *)date withFormat:(NSString *)format;
+- (NSString *)HmacMD5:(NSString *)str WithKey:(NSString *)key;
 
 @end
