@@ -170,8 +170,6 @@
 				14C96B3A1D0D357100E16CC3 /* MooModel.m */,
 				14C96B3B1D0D357100E16CC3 /* MooWeb.h */,
 				14C96B3C1D0D357100E16CC3 /* MooWeb.m */,
-				14D06E4A1D3366F5005F1647 /* MooLoader.m */,
-				14D06E4B1D3366F5005F1647 /* MooLoader.h */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -188,6 +186,8 @@
 		14D06E4D1D3366FB005F1647 /* MooUI */ = {
 			isa = PBXGroup;
 			children = (
+				14D06E4A1D3366F5005F1647 /* MooLoader.m */,
+				14D06E4B1D3366F5005F1647 /* MooLoader.h */,
 				14D06E511D336720005F1647 /* MooButton.h */,
 				14D06E521D336720005F1647 /* MooButton.m */,
 			);
