@@ -1,8 +1,16 @@
-# MooTive - An Objective-C Library Toolkit
+# MooTive
 
-Facing to the MVVM design pattern of GUI programming with iOS and OS X, I design a toolkit for engineers help them with their DAILY CODING.
+Moo - Moo - Moo | Moo - Moo - Moo | Moo - Moo - Moo
 
-面对用MVVM设计模式的iOS和OSX的GUI图形编程，我设计了一套工具面向工程师方便他们进行日常编码。
+## What's this?
+
+An Objective-C Library Toolkit
+
+## What problem does it solved?
+
+For helping GUI programming with iOS, I design a toolkit for engineers help them with their DAILY CODING.
+
+为辅助 iOS 和 OSX 的 GUI 图形编程，我设计了一套工具面向工程师方便他们进行日常编码。
 
 **Not like the other Toolkit. We don't like ```#define``` any data as Macro, which will pollute other code in your project. Instead, Object Oriented Programming is our goal and make your namespace clean.**
 
@@ -10,30 +18,47 @@ Facing to the MVVM design pattern of GUI programming with iOS and OS X, I design
 
 There are 3 parts of MooTive:
 
-这里MooTive有三个部分：
+这里MooTive有三大部分：
 
-1. MooWeb - 用于替代AFNetwork作为网络底层
-   1. Sync Data Request 同步数据请求
-   2. Async Data Request 异步数据请求
-2. MooModel - 基于MooWeb的抽象化数据对流模型扩展
-   1. HTTP GET
-   2. HTTP POST
-   3. GET for JSON GET 获取 JSON
-   4. POST for JSON POST 获取 JSON
-3. MooCommon - 一些日常函数
-   1. Color Conversion 颜色转换
-   2. Angle Conversion 角度转换
-   3. ImageView with Color 颜色绘图
-   4. Alert Info 弹出消息
-   5. Split by Dot 点分
-   6. Split by Thousand 千分
-   7. String Convert From Date 日期转字符串
-   8. HmacMD5 加密算法
-4. MooUI - 一些GUI类
-   1. MooLoader 加载更多控件
-   2. MooButton 按钮控件的扩展
+1. Common Classes - 公共类
+   1. MooCommon - 一些日常函数
+   2. MooData - 数据元
+   3. MooModel - 数据模型
+   4. MooWeb - 用于替代 AFNetwork 作为网络底层
+2. MooUI - 界面类
+   1. MooBadge - 徽章图形元素
+   2. MooButton - 按钮元素
+   3. MooCalendar - 日历界面
+   4. MooClearView - 遮罩透明元素
+   5. MooDing - 下弹式提示元素
+   6. MooEmpty - 置于列表视图表示列表为空的元素
+   7. MooLoader - 列表底部下拉以加载更多的元素
+   8. MooPage - 分页元素
+   9. MooPicture - 图片元素
+   10. MooPictureDisplay - 多图片可组合切换界面
+   11. MooShare - 分享至社交平台元素（支持微信、QQ）
+   12. MooSlider - 幻灯片元素
+   13. MooUnlock - 解锁界面
+   14. MooWait - 等待刷新元素
+   15. MooZoomPicture - 图片可拉伸预览元素
+3. Component - 组件类
+   1. MooCalendarBody - 日历界面主体组件
+   2. MooCalendarCell - 日历界面细胞单元
+   3. MooDataValue - 数据值
+   4. MooDeviceInfo - 设备信息
+   5. MooJSONResponse - JSON 请求返回信息
+   6. MooShareMessage - 分享界面消息
+   7. MooUnlockButton - 解锁按钮
 
-## MooWeb
+## License
+
+MooTive is released under the GPL Lincense.
+
+MooTive 使用开源 GPL 协议。
+
+## 以下为某些组件的使用示例
+
+### MooWeb
 
 Object Stucture
 
@@ -49,7 +74,7 @@ Object Stucture
 @end
 ```
 
-### Sync Data Request 同步数据请求
+#### Sync Data Request 同步数据请求
 
 ```objective-c
 - (NSData *)curl:(NSString *)strUrl withMethod:(NSString *)method withParam:(NSMutableData *)param;
@@ -63,7 +88,7 @@ Details 详细：
 | method   | NSString      | @"POST"             |
 | param    | NSMutableData | N / A               |
 
-### Async Data Request 异步数据请求
+#### Async Data Request 异步数据请求
 
 ```objective-c
 - (void)curl:(NSString *)strUrl withMethod:(NSString *)method withParam:(NSMutableData *)param completion:(void (^)(NSURLResponse * response, NSData * data, NSError * connectionError))completion;
@@ -78,7 +103,7 @@ Details 详细：
 | param      | NSMutableData | N / A               |
 | completion | Block         | N / A               |
 
-## MooModel
+### MooModel
 
 Object Structure
 
@@ -98,7 +123,7 @@ Object Structure
 @end
 ```
 
-### HTTP GET
+#### HTTP GET
 
 ```objective-c
 - (void)get:(NSString *)path completion:(void (^)(NSData *data))completion;
@@ -111,7 +136,7 @@ Details 详细：
 | path       | NSString | @"http://localhost" |
 | completion | Block    | N / A               |
 
-### HTTP POST
+#### HTTP POST
 
 ```objective-c
 - (void)post:(NSString *)path withParam:(NSMutableData *)param completion:(void (^)(NSData *data))completion;
@@ -125,7 +150,7 @@ Details 详细：
 | param      | NSMutableData | N / A               |
 | completion | Block         | N / A               |
 
-### GET for JSON GET 获取 JSON
+#### GET for JSON GET 获取 JSON
 
 ```objective-c
 - (void)getJSON:(NSString *)path completion:(void (^)(NSString *status, NSDictionary *data))completion;
@@ -138,7 +163,7 @@ Details 详细：
 | path       | NSString | @"http://localhost" |
 | completion | Block    | N / A               |
 
-### POST for JSON POST 获取 JSON
+#### POST for JSON POST 获取 JSON
 
 ```objective-c
 - (void)postJSON:(NSString *)path withParam:(NSMutableData *)param completion:(void (^)(NSString *status, NSDictionary *data))completion;
@@ -152,7 +177,7 @@ Details 详细：
 | param      | NSMutableData | N / A               |
 | completion | Block         | N / A               |
 
-## MooCommon
+### MooCommon
 
 Objective Struct
 
@@ -170,7 +195,7 @@ Objective Struct
 @end
 ```
 
-### Color Conversion 颜色转换
+#### Color Conversion 颜色转换
 
 ```objective-c
 - (UIColor *)colorFromRGBA:(int)rgbValue withAlphaValue:(int)alphaValue;
@@ -195,7 +220,7 @@ Details 详细：
 | -------- | ------- | ---------- |
 | degree   | float   | 45         |
 
-### ImageView with Color 颜色绘图
+#### ImageView with Color 颜色绘图
 
 ```objective-c
 - (UIImage *)imageWithColor:(UIColor *)color withWidth:(CGFloat)width withHeight:(CGFloat)height;
@@ -209,7 +234,7 @@ Details 详细：
 | width    | CGFloat | 100                 |
 | height   | CGFloat | 100                 |
 
-### Alert Info 弹出消息
+#### Alert Info 弹出消息
 
 ```objective-c
 - (void)alertInfo:(NSString *)title withMessage:(NSString *)message;
@@ -222,7 +247,7 @@ Details 详细：
 | title    | NSString | @"Title"        |
 | message  | NSString | @"Some Message" |
 
-### Split by Dot 点分
+#### Split by Dot 点分
 
 ```objective-c
 - (NSArray *)splitByDot:(NSString *)number withOffset:(NSUInteger)offset;
@@ -235,7 +260,7 @@ Details 详细：
 | number   | NSString   | @"1.123"   |
 | offset   | NSUInteger | 0 / 1      |
 
-### Split by Thousand 千分
+#### Split by Thousand 千分
 
 ```objective-c
 - (NSString *)splitByThousand:(NSString *)number;
@@ -247,7 +272,7 @@ Details 详细：
 | -------- | -------- | ---------- |
 | number   | NSString | @"123456"  |
 
-### String Conver From Date 日期转字符串
+#### String Conver From Date 日期转字符串
 
 ```objective-c
 - (NSString *)stringConverFromDate:(NSDate *)date withFormat:(NSString *)format;
@@ -260,7 +285,7 @@ Details 详细：
 | date     | NSDate   | [NSDate date] |
 | format   | NSString | @"yyyy-MM-dd" |
 
-### HmacMD5 加密函数
+#### HmacMD5 加密函数
 
 ```objective-c
 - (NSString *)HmacMD5:(NSString *)str WithKey:(NSString *)key;
@@ -273,9 +298,9 @@ Details 详细：
 | str      | NSString | @"abcdef"     |
 | key      | NSString | @"HelloWorld" |
 
-## MooUI
+### MooUI
 
-### MooButton 按钮扩展
+#### MooButton 按钮扩展
 
 用法：
 
@@ -286,7 +311,7 @@ MooButton *btnMyButton = [[MooButton alloc] init];
 [btnMyButton setInfo:@"Hello Jakit!"];
 ```
 
-### MooLoader 加载更多
+#### MooLoader 加载更多
 
 用法：
 
@@ -301,9 +326,8 @@ MooLoader *loader = [[MooLoader alloc] init];
 ```
 
 
-
-## Epilogue 后记
+### Epilogue 后记
 
 This is a Toolkit wrote in ObjectiveC and is of Moo Series. Document wrote in hurry so please don't mind. Thank you for your support!
 
-这是Moo系列的ObjectiveC工具箱，文档赶时间写着比较急，^_^ 别介意，好用就OK！谢谢各位支持！
+这是 Moo 系列的 Objective-C 工具箱，文档赶时间写着比较急，^_^ 别介意，好用就 OK！感谢各位支持！

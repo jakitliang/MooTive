@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1460E70A1F0B8A89001EDF96 /* MooTive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7091F0B8A89001EDF96 /* MooTive.m */; };
+		1460E70B1F0B8A89001EDF96 /* MooTive.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7081F0B8A89001EDF96 /* MooTive.h */; };
+		1460E7471F0B8AA5001EDF96 /* MooCalendarBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7131F0B8AA5001EDF96 /* MooCalendarBody.m */; };
+		1460E7481F0B8AA5001EDF96 /* MooCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7151F0B8AA5001EDF96 /* MooCalendarCell.m */; };
+		1460E7491F0B8AA5001EDF96 /* MooDataValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7171F0B8AA5001EDF96 /* MooDataValue.m */; };
+		1460E74A1F0B8AA5001EDF96 /* MooDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7191F0B8AA5001EDF96 /* MooDeviceInfo.m */; };
+		1460E74B1F0B8AA5001EDF96 /* MooJSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E71B1F0B8AA5001EDF96 /* MooJSONResponse.m */; };
+		1460E74C1F0B8AA5001EDF96 /* MooShareMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E71D1F0B8AA5001EDF96 /* MooShareMessage.m */; };
+		1460E74D1F0B8AA5001EDF96 /* MooUnlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E71F1F0B8AA5001EDF96 /* MooUnlockButton.m */; };
+		1460E74E1F0B8AA5001EDF96 /* MooCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7211F0B8AA5001EDF96 /* MooCommon.m */; };
+		1460E74F1F0B8AA5001EDF96 /* MooData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7231F0B8AA5001EDF96 /* MooData.m */; };
+		1460E7501F0B8AA5001EDF96 /* MooModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7251F0B8AA5001EDF96 /* MooModel.m */; };
+		1460E7511F0B8AA5001EDF96 /* MooBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7281F0B8AA5001EDF96 /* MooBadge.m */; };
+		1460E7521F0B8AA5001EDF96 /* MooButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E72A1F0B8AA5001EDF96 /* MooButton.m */; };
+		1460E7531F0B8AA5001EDF96 /* MooCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E72C1F0B8AA5001EDF96 /* MooCalendar.m */; };
+		1460E7541F0B8AA5001EDF96 /* MooClearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E72E1F0B8AA5001EDF96 /* MooClearView.m */; };
+		1460E7551F0B8AA5001EDF96 /* MooDing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7301F0B8AA5001EDF96 /* MooDing.m */; };
+		1460E7561F0B8AA5001EDF96 /* MooEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7321F0B8AA5001EDF96 /* MooEmpty.m */; };
+		1460E7571F0B8AA5001EDF96 /* MooLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7341F0B8AA5001EDF96 /* MooLoader.m */; };
+		1460E7581F0B8AA5001EDF96 /* MooPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7361F0B8AA5001EDF96 /* MooPage.m */; };
+		1460E7591F0B8AA5001EDF96 /* MooPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7381F0B8AA5001EDF96 /* MooPicture.m */; };
+		1460E75A1F0B8AA5001EDF96 /* MooPictureDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E73A1F0B8AA5001EDF96 /* MooPictureDisplay.m */; };
+		1460E75B1F0B8AA5001EDF96 /* MooShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E73C1F0B8AA5001EDF96 /* MooShare.m */; };
+		1460E75C1F0B8AA5001EDF96 /* MooSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E73E1F0B8AA5001EDF96 /* MooSlider.m */; };
+		1460E75D1F0B8AA5001EDF96 /* MooUnlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7401F0B8AA5001EDF96 /* MooUnlock.m */; };
+		1460E75E1F0B8AA5001EDF96 /* MooWait.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7421F0B8AA5001EDF96 /* MooWait.m */; };
+		1460E75F1F0B8AA5001EDF96 /* MooZoomPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7441F0B8AA5001EDF96 /* MooZoomPicture.m */; };
+		1460E7601F0B8AA5001EDF96 /* MooWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460E7461F0B8AA5001EDF96 /* MooWeb.m */; };
+		1460E7811F0B8FE7001EDF96 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1460E7801F0B8FE7001EDF96 /* TencentOpenAPI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1460E78A1F0B935E001EDF96 /* MooCalendarBody.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7121F0B8AA5001EDF96 /* MooCalendarBody.h */; };
+		1460E78B1F0B935E001EDF96 /* MooCalendarCell.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7141F0B8AA5001EDF96 /* MooCalendarCell.h */; };
+		1460E78C1F0B935E001EDF96 /* MooDataValue.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7161F0B8AA5001EDF96 /* MooDataValue.h */; };
+		1460E78D1F0B935E001EDF96 /* MooDeviceInfo.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7181F0B8AA5001EDF96 /* MooDeviceInfo.h */; };
+		1460E78E1F0B935E001EDF96 /* MooJSONResponse.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E71A1F0B8AA5001EDF96 /* MooJSONResponse.h */; };
+		1460E78F1F0B935E001EDF96 /* MooShareMessage.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E71C1F0B8AA5001EDF96 /* MooShareMessage.h */; };
+		1460E7901F0B935E001EDF96 /* MooUnlockButton.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E71E1F0B8AA5001EDF96 /* MooUnlockButton.h */; };
+		1460E7911F0B935E001EDF96 /* MooCommon.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7201F0B8AA5001EDF96 /* MooCommon.h */; };
+		1460E7921F0B935E001EDF96 /* MooData.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7221F0B8AA5001EDF96 /* MooData.h */; };
+		1460E7931F0B935E001EDF96 /* MooModel.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7241F0B8AA5001EDF96 /* MooModel.h */; };
+		1460E7941F0B935E001EDF96 /* MooBadge.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7271F0B8AA5001EDF96 /* MooBadge.h */; };
+		1460E7951F0B935E001EDF96 /* MooButton.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7291F0B8AA5001EDF96 /* MooButton.h */; };
+		1460E7961F0B935E001EDF96 /* MooCalendar.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E72B1F0B8AA5001EDF96 /* MooCalendar.h */; };
+		1460E7971F0B935E001EDF96 /* MooClearView.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E72D1F0B8AA5001EDF96 /* MooClearView.h */; };
+		1460E7981F0B935E001EDF96 /* MooDing.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E72F1F0B8AA5001EDF96 /* MooDing.h */; };
+		1460E7991F0B935E001EDF96 /* MooEmpty.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7311F0B8AA5001EDF96 /* MooEmpty.h */; };
+		1460E79A1F0B935E001EDF96 /* MooLoader.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7331F0B8AA5001EDF96 /* MooLoader.h */; };
+		1460E79B1F0B935E001EDF96 /* MooPage.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7351F0B8AA5001EDF96 /* MooPage.h */; };
+		1460E79C1F0B935E001EDF96 /* MooPicture.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7371F0B8AA5001EDF96 /* MooPicture.h */; };
+		1460E79D1F0B935E001EDF96 /* MooPictureDisplay.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7391F0B8AA5001EDF96 /* MooPictureDisplay.h */; };
+		1460E79E1F0B935E001EDF96 /* MooShare.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E73B1F0B8AA5001EDF96 /* MooShare.h */; };
+		1460E79F1F0B935E001EDF96 /* MooSlider.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E73D1F0B8AA5001EDF96 /* MooSlider.h */; };
+		1460E7A01F0B935E001EDF96 /* MooUnlock.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E73F1F0B8AA5001EDF96 /* MooUnlock.h */; };
+		1460E7A11F0B935E001EDF96 /* MooWait.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7411F0B8AA5001EDF96 /* MooWait.h */; };
+		1460E7A21F0B935E001EDF96 /* MooZoomPicture.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7431F0B8AA5001EDF96 /* MooZoomPicture.h */; };
+		1460E7A31F0B935E001EDF96 /* MooWeb.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1460E7451F0B8AA5001EDF96 /* MooWeb.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1460E7031F0B8A89001EDF96 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1460E78A1F0B935E001EDF96 /* MooCalendarBody.h in Copy Files */,
+				1460E78B1F0B935E001EDF96 /* MooCalendarCell.h in Copy Files */,
+				1460E78C1F0B935E001EDF96 /* MooDataValue.h in Copy Files */,
+				1460E78D1F0B935E001EDF96 /* MooDeviceInfo.h in Copy Files */,
+				1460E78E1F0B935E001EDF96 /* MooJSONResponse.h in Copy Files */,
+				1460E78F1F0B935E001EDF96 /* MooShareMessage.h in Copy Files */,
+				1460E7901F0B935E001EDF96 /* MooUnlockButton.h in Copy Files */,
+				1460E7911F0B935E001EDF96 /* MooCommon.h in Copy Files */,
+				1460E7921F0B935E001EDF96 /* MooData.h in Copy Files */,
+				1460E7931F0B935E001EDF96 /* MooModel.h in Copy Files */,
+				1460E7941F0B935E001EDF96 /* MooBadge.h in Copy Files */,
+				1460E7951F0B935E001EDF96 /* MooButton.h in Copy Files */,
+				1460E7961F0B935E001EDF96 /* MooCalendar.h in Copy Files */,
+				1460E7971F0B935E001EDF96 /* MooClearView.h in Copy Files */,
+				1460E7981F0B935E001EDF96 /* MooDing.h in Copy Files */,
+				1460E7991F0B935E001EDF96 /* MooEmpty.h in Copy Files */,
+				1460E79A1F0B935E001EDF96 /* MooLoader.h in Copy Files */,
+				1460E79B1F0B935E001EDF96 /* MooPage.h in Copy Files */,
+				1460E79C1F0B935E001EDF96 /* MooPicture.h in Copy Files */,
+				1460E79D1F0B935E001EDF96 /* MooPictureDisplay.h in Copy Files */,
+				1460E79E1F0B935E001EDF96 /* MooShare.h in Copy Files */,
+				1460E79F1F0B935E001EDF96 /* MooSlider.h in Copy Files */,
+				1460E7A01F0B935E001EDF96 /* MooUnlock.h in Copy Files */,
+				1460E7A11F0B935E001EDF96 /* MooWait.h in Copy Files */,
+				1460E7A21F0B935E001EDF96 /* MooZoomPicture.h in Copy Files */,
+				1460E7A31F0B935E001EDF96 /* MooWeb.h in Copy Files */,
+				1460E70B1F0B8A89001EDF96 /* MooTive.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1460E7051F0B8A89001EDF96 /* libMooTive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMooTive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1460E7081F0B8A89001EDF96 /* MooTive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MooTive.h; sourceTree = "<group>"; };
+		1460E7091F0B8A89001EDF96 /* MooTive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MooTive.m; sourceTree = "<group>"; };
+		1460E7121F0B8AA5001EDF96 /* MooCalendarBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooCalendarBody.h; sourceTree = "<group>"; };
+		1460E7131F0B8AA5001EDF96 /* MooCalendarBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooCalendarBody.m; sourceTree = "<group>"; };
+		1460E7141F0B8AA5001EDF96 /* MooCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooCalendarCell.h; sourceTree = "<group>"; };
+		1460E7151F0B8AA5001EDF96 /* MooCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooCalendarCell.m; sourceTree = "<group>"; };
+		1460E7161F0B8AA5001EDF96 /* MooDataValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooDataValue.h; sourceTree = "<group>"; };
+		1460E7171F0B8AA5001EDF96 /* MooDataValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooDataValue.m; sourceTree = "<group>"; };
+		1460E7181F0B8AA5001EDF96 /* MooDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooDeviceInfo.h; sourceTree = "<group>"; };
+		1460E7191F0B8AA5001EDF96 /* MooDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooDeviceInfo.m; sourceTree = "<group>"; };
+		1460E71A1F0B8AA5001EDF96 /* MooJSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooJSONResponse.h; sourceTree = "<group>"; };
+		1460E71B1F0B8AA5001EDF96 /* MooJSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooJSONResponse.m; sourceTree = "<group>"; };
+		1460E71C1F0B8AA5001EDF96 /* MooShareMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooShareMessage.h; sourceTree = "<group>"; };
+		1460E71D1F0B8AA5001EDF96 /* MooShareMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooShareMessage.m; sourceTree = "<group>"; };
+		1460E71E1F0B8AA5001EDF96 /* MooUnlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooUnlockButton.h; sourceTree = "<group>"; };
+		1460E71F1F0B8AA5001EDF96 /* MooUnlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooUnlockButton.m; sourceTree = "<group>"; };
+		1460E7201F0B8AA5001EDF96 /* MooCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooCommon.h; sourceTree = "<group>"; };
+		1460E7211F0B8AA5001EDF96 /* MooCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooCommon.m; sourceTree = "<group>"; };
+		1460E7221F0B8AA5001EDF96 /* MooData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooData.h; sourceTree = "<group>"; };
+		1460E7231F0B8AA5001EDF96 /* MooData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooData.m; sourceTree = "<group>"; };
+		1460E7241F0B8AA5001EDF96 /* MooModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooModel.h; sourceTree = "<group>"; };
+		1460E7251F0B8AA5001EDF96 /* MooModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooModel.m; sourceTree = "<group>"; };
+		1460E7271F0B8AA5001EDF96 /* MooBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooBadge.h; sourceTree = "<group>"; };
+		1460E7281F0B8AA5001EDF96 /* MooBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooBadge.m; sourceTree = "<group>"; };
+		1460E7291F0B8AA5001EDF96 /* MooButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooButton.h; sourceTree = "<group>"; };
+		1460E72A1F0B8AA5001EDF96 /* MooButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooButton.m; sourceTree = "<group>"; };
+		1460E72B1F0B8AA5001EDF96 /* MooCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooCalendar.h; sourceTree = "<group>"; };
+		1460E72C1F0B8AA5001EDF96 /* MooCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooCalendar.m; sourceTree = "<group>"; };
+		1460E72D1F0B8AA5001EDF96 /* MooClearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooClearView.h; sourceTree = "<group>"; };
+		1460E72E1F0B8AA5001EDF96 /* MooClearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooClearView.m; sourceTree = "<group>"; };
+		1460E72F1F0B8AA5001EDF96 /* MooDing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooDing.h; sourceTree = "<group>"; };
+		1460E7301F0B8AA5001EDF96 /* MooDing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooDing.m; sourceTree = "<group>"; };
+		1460E7311F0B8AA5001EDF96 /* MooEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooEmpty.h; sourceTree = "<group>"; };
+		1460E7321F0B8AA5001EDF96 /* MooEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooEmpty.m; sourceTree = "<group>"; };
+		1460E7331F0B8AA5001EDF96 /* MooLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooLoader.h; sourceTree = "<group>"; };
+		1460E7341F0B8AA5001EDF96 /* MooLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooLoader.m; sourceTree = "<group>"; };
+		1460E7351F0B8AA5001EDF96 /* MooPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooPage.h; sourceTree = "<group>"; };
+		1460E7361F0B8AA5001EDF96 /* MooPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooPage.m; sourceTree = "<group>"; };
+		1460E7371F0B8AA5001EDF96 /* MooPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooPicture.h; sourceTree = "<group>"; };
+		1460E7381F0B8AA5001EDF96 /* MooPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooPicture.m; sourceTree = "<group>"; };
+		1460E7391F0B8AA5001EDF96 /* MooPictureDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooPictureDisplay.h; sourceTree = "<group>"; };
+		1460E73A1F0B8AA5001EDF96 /* MooPictureDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooPictureDisplay.m; sourceTree = "<group>"; };
+		1460E73B1F0B8AA5001EDF96 /* MooShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooShare.h; sourceTree = "<group>"; };
+		1460E73C1F0B8AA5001EDF96 /* MooShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooShare.m; sourceTree = "<group>"; };
+		1460E73D1F0B8AA5001EDF96 /* MooSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooSlider.h; sourceTree = "<group>"; };
+		1460E73E1F0B8AA5001EDF96 /* MooSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooSlider.m; sourceTree = "<group>"; };
+		1460E73F1F0B8AA5001EDF96 /* MooUnlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooUnlock.h; sourceTree = "<group>"; };
+		1460E7401F0B8AA5001EDF96 /* MooUnlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooUnlock.m; sourceTree = "<group>"; };
+		1460E7411F0B8AA5001EDF96 /* MooWait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooWait.h; sourceTree = "<group>"; };
+		1460E7421F0B8AA5001EDF96 /* MooWait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooWait.m; sourceTree = "<group>"; };
+		1460E7431F0B8AA5001EDF96 /* MooZoomPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooZoomPicture.h; sourceTree = "<group>"; };
+		1460E7441F0B8AA5001EDF96 /* MooZoomPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooZoomPicture.m; sourceTree = "<group>"; };
+		1460E7451F0B8AA5001EDF96 /* MooWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooWeb.h; sourceTree = "<group>"; };
+		1460E7461F0B8AA5001EDF96 /* MooWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooWeb.m; sourceTree = "<group>"; };
+		1460E7771F0B8FA4001EDF96 /* WechatAuthSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = MooTive/Frameworks/Wechat/WechatAuthSDK.h; sourceTree = "<group>"; };
+		1460E7781F0B8FA4001EDF96 /* WXApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = MooTive/Frameworks/Wechat/WXApi.h; sourceTree = "<group>"; };
+		1460E7791F0B8FA4001EDF96 /* WXApiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = MooTive/Frameworks/Wechat/WXApiObject.h; sourceTree = "<group>"; };
+		1460E77D1F0B8FB4001EDF96 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = MooTive/Frameworks/Wechat/libWeChatSDK.a; sourceTree = "<group>"; };
+		1460E7801F0B8FE7001EDF96 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = MooTive/Frameworks/QQ/TencentOpenAPI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1460E7021F0B8A89001EDF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1460E7811F0B8FE7001EDF96 /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1460E6FC1F0B8A89001EDF96 = {
+			isa = PBXGroup;
+			children = (
+				1460E7071F0B8A89001EDF96 /* MooTive */,
+				1460E7061F0B8A89001EDF96 /* Products */,
+				1460E7611F0B8D3C001EDF96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1460E7061F0B8A89001EDF96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1460E7051F0B8A89001EDF96 /* libMooTive.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1460E7071F0B8A89001EDF96 /* MooTive */ = {
+			isa = PBXGroup;
+			children = (
+				1460E7111F0B8AA5001EDF96 /* Component */,
+				1460E7201F0B8AA5001EDF96 /* MooCommon.h */,
+				1460E7211F0B8AA5001EDF96 /* MooCommon.m */,
+				1460E7221F0B8AA5001EDF96 /* MooData.h */,
+				1460E7231F0B8AA5001EDF96 /* MooData.m */,
+				1460E7241F0B8AA5001EDF96 /* MooModel.h */,
+				1460E7251F0B8AA5001EDF96 /* MooModel.m */,
+				1460E7261F0B8AA5001EDF96 /* MooUI */,
+				1460E7451F0B8AA5001EDF96 /* MooWeb.h */,
+				1460E7461F0B8AA5001EDF96 /* MooWeb.m */,
+				1460E7081F0B8A89001EDF96 /* MooTive.h */,
+				1460E7091F0B8A89001EDF96 /* MooTive.m */,
+			);
+			path = MooTive;
+			sourceTree = "<group>";
+		};
+		1460E7111F0B8AA5001EDF96 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1460E7121F0B8AA5001EDF96 /* MooCalendarBody.h */,
+				1460E7131F0B8AA5001EDF96 /* MooCalendarBody.m */,
+				1460E7141F0B8AA5001EDF96 /* MooCalendarCell.h */,
+				1460E7151F0B8AA5001EDF96 /* MooCalendarCell.m */,
+				1460E7161F0B8AA5001EDF96 /* MooDataValue.h */,
+				1460E7171F0B8AA5001EDF96 /* MooDataValue.m */,
+				1460E7181F0B8AA5001EDF96 /* MooDeviceInfo.h */,
+				1460E7191F0B8AA5001EDF96 /* MooDeviceInfo.m */,
+				1460E71A1F0B8AA5001EDF96 /* MooJSONResponse.h */,
+				1460E71B1F0B8AA5001EDF96 /* MooJSONResponse.m */,
+				1460E71C1F0B8AA5001EDF96 /* MooShareMessage.h */,
+				1460E71D1F0B8AA5001EDF96 /* MooShareMessage.m */,
+				1460E71E1F0B8AA5001EDF96 /* MooUnlockButton.h */,
+				1460E71F1F0B8AA5001EDF96 /* MooUnlockButton.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1460E7261F0B8AA5001EDF96 /* MooUI */ = {
+			isa = PBXGroup;
+			children = (
+				1460E7271F0B8AA5001EDF96 /* MooBadge.h */,
+				1460E7281F0B8AA5001EDF96 /* MooBadge.m */,
+				1460E7291F0B8AA5001EDF96 /* MooButton.h */,
+				1460E72A1F0B8AA5001EDF96 /* MooButton.m */,
+				1460E72B1F0B8AA5001EDF96 /* MooCalendar.h */,
+				1460E72C1F0B8AA5001EDF96 /* MooCalendar.m */,
+				1460E72D1F0B8AA5001EDF96 /* MooClearView.h */,
+				1460E72E1F0B8AA5001EDF96 /* MooClearView.m */,
+				1460E72F1F0B8AA5001EDF96 /* MooDing.h */,
+				1460E7301F0B8AA5001EDF96 /* MooDing.m */,
+				1460E7311F0B8AA5001EDF96 /* MooEmpty.h */,
+				1460E7321F0B8AA5001EDF96 /* MooEmpty.m */,
+				1460E7331F0B8AA5001EDF96 /* MooLoader.h */,
+				1460E7341F0B8AA5001EDF96 /* MooLoader.m */,
+				1460E7351F0B8AA5001EDF96 /* MooPage.h */,
+				1460E7361F0B8AA5001EDF96 /* MooPage.m */,
+				1460E7371F0B8AA5001EDF96 /* MooPicture.h */,
+				1460E7381F0B8AA5001EDF96 /* MooPicture.m */,
+				1460E7391F0B8AA5001EDF96 /* MooPictureDisplay.h */,
+				1460E73A1F0B8AA5001EDF96 /* MooPictureDisplay.m */,
+				1460E73B1F0B8AA5001EDF96 /* MooShare.h */,
+				1460E73C1F0B8AA5001EDF96 /* MooShare.m */,
+				1460E73D1F0B8AA5001EDF96 /* MooSlider.h */,
+				1460E73E1F0B8AA5001EDF96 /* MooSlider.m */,
+				1460E73F1F0B8AA5001EDF96 /* MooUnlock.h */,
+				1460E7401F0B8AA5001EDF96 /* MooUnlock.m */,
+				1460E7411F0B8AA5001EDF96 /* MooWait.h */,
+				1460E7421F0B8AA5001EDF96 /* MooWait.m */,
+				1460E7431F0B8AA5001EDF96 /* MooZoomPicture.h */,
+				1460E7441F0B8AA5001EDF96 /* MooZoomPicture.m */,
+			);
+			path = MooUI;
+			sourceTree = "<group>";
+		};
+		1460E7611F0B8D3C001EDF96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1460E77F1F0B8FBC001EDF96 /* QQ */,
+				1460E7761F0B8F94001EDF96 /* Wechat */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1460E7761F0B8F94001EDF96 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				1460E77D1F0B8FB4001EDF96 /* libWeChatSDK.a */,
+				1460E7771F0B8FA4001EDF96 /* WechatAuthSDK.h */,
+				1460E7781F0B8FA4001EDF96 /* WXApi.h */,
+				1460E7791F0B8FA4001EDF96 /* WXApiObject.h */,
+			);
+			name = Wechat;
+			sourceTree = "<group>";
+		};
+		1460E77F1F0B8FBC001EDF96 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				1460E7801F0B8FE7001EDF96 /* TencentOpenAPI.framework */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1460E7041F0B8A89001EDF96 /* MooTive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1460E70E1F0B8A89001EDF96 /* Build configuration list for PBXNativeTarget "MooTive" */;
+			buildPhases = (
+				1460E7011F0B8A89001EDF96 /* Sources */,
+				1460E7021F0B8A89001EDF96 /* Frameworks */,
+				1460E7031F0B8A89001EDF96 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MooTive;
+			productName = MooTive;
+			productReference = 1460E7051F0B8A89001EDF96 /* libMooTive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1460E6FD1F0B8A89001EDF96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jakit;
+				TargetAttributes = {
+					1460E7041F0B8A89001EDF96 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GF8EC3U6VF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1460E7001F0B8A89001EDF96 /* Build configuration list for PBXProject "MooTive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1460E6FC1F0B8A89001EDF96;
+			productRefGroup = 1460E7061F0B8A89001EDF96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1460E7041F0B8A89001EDF96 /* MooTive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1460E7011F0B8A89001EDF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1460E74A1F0B8AA5001EDF96 /* MooDeviceInfo.m in Sources */,
+				1460E7551F0B8AA5001EDF96 /* MooDing.m in Sources */,
+				1460E7501F0B8AA5001EDF96 /* MooModel.m in Sources */,
+				1460E75C1F0B8AA5001EDF96 /* MooSlider.m in Sources */,
+				1460E7481F0B8AA5001EDF96 /* MooCalendarCell.m in Sources */,
+				1460E7511F0B8AA5001EDF96 /* MooBadge.m in Sources */,
+				1460E74E1F0B8AA5001EDF96 /* MooCommon.m in Sources */,
+				1460E7531F0B8AA5001EDF96 /* MooCalendar.m in Sources */,
+				1460E75B1F0B8AA5001EDF96 /* MooShare.m in Sources */,
+				1460E74B1F0B8AA5001EDF96 /* MooJSONResponse.m in Sources */,
+				1460E70A1F0B8A89001EDF96 /* MooTive.m in Sources */,
+				1460E7541F0B8AA5001EDF96 /* MooClearView.m in Sources */,
+				1460E7591F0B8AA5001EDF96 /* MooPicture.m in Sources */,
+				1460E74F1F0B8AA5001EDF96 /* MooData.m in Sources */,
+				1460E7601F0B8AA5001EDF96 /* MooWeb.m in Sources */,
+				1460E75E1F0B8AA5001EDF96 /* MooWait.m in Sources */,
+				1460E7581F0B8AA5001EDF96 /* MooPage.m in Sources */,
+				1460E74C1F0B8AA5001EDF96 /* MooShareMessage.m in Sources */,
+				1460E7471F0B8AA5001EDF96 /* MooCalendarBody.m in Sources */,
+				1460E7491F0B8AA5001EDF96 /* MooDataValue.m in Sources */,
+				1460E75F1F0B8AA5001EDF96 /* MooZoomPicture.m in Sources */,
+				1460E7561F0B8AA5001EDF96 /* MooEmpty.m in Sources */,
+				1460E7521F0B8AA5001EDF96 /* MooButton.m in Sources */,
+				1460E7571F0B8AA5001EDF96 /* MooLoader.m in Sources */,
+				1460E75D1F0B8AA5001EDF96 /* MooUnlock.m in Sources */,
+				1460E74D1F0B8AA5001EDF96 /* MooUnlockButton.m in Sources */,
+				1460E75A1F0B8AA5001EDF96 /* MooPictureDisplay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1460E70C1F0B8A89001EDF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1460E70D1F0B8A89001EDF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1460E70F1F0B8A89001EDF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GF8EC3U6VF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MooTive/Frameworks/QQ",
+					"$(PROJECT_DIR)/MooTive/Frameworks",
+				);
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MooTive/Frameworks/Getui",
+					"$(PROJECT_DIR)/MooTive/Frameworks/Wechat",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1460E7101F0B8A89001EDF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GF8EC3U6VF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MooTive/Frameworks/QQ",
+					"$(PROJECT_DIR)/MooTive/Frameworks",
+				);
+				KEEP_PRIVATE_EXTERNS = NO;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MooTive/Frameworks/Getui",
+					"$(PROJECT_DIR)/MooTive/Frameworks/Wechat",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1460E7001F0B8A89001EDF96 /* Build configuration list for PBXProject "MooTive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1460E70C1F0B8A89001EDF96 /* Debug */,
+				1460E70D1F0B8A89001EDF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1460E70E1F0B8A89001EDF96 /* Build configuration list for PBXNativeTarget "MooTive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1460E70F1F0B8A89001EDF96 /* Debug */,
+				1460E7101F0B8A89001EDF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1460E6FD1F0B8A89001EDF96 /* Project object */;
+}
