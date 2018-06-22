@@ -12,10 +12,6 @@ For helping GUI programming with iOS, I design a toolkit for engineers help them
 
 为辅助 iOS 和 OSX 的 GUI 图形编程，我设计了一套工具面向工程师方便他们进行日常编码。
 
-**Not like the other Toolkit. We don't like ```#define``` any data as Macro, which will pollute other code in your project. Instead, Object Oriented Programming is our goal and make your namespace clean.**
-
-**不像其它的工具包，我们绝对不使用宏定义去污染别人的代码！取而代之，我们使用干净卫生的物件导向编程来达到这种目的并且让你的命名空间（可以写的名称）更加干净！**
-
 There are 3 parts of MooTive:
 
 这里MooTive有三大部分：
@@ -56,7 +52,7 @@ MooTive is released under the GPL Lincense.
 
 MooTive 使用开源 GPL 协议。
 
-## 以下为某些组件的使用示例
+## Examples
 
 ### MooWeb
 
